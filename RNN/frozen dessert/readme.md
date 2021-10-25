@@ -1,1 +1,1 @@
-model that predict how much sales gonna be on the frozen dessert for the next year.
+model that predict the stock price of frozen dessert company.
