@@ -65,7 +65,7 @@ if __name__ == '__main__':
                         validation_data=test_generator, callbacks=[early_stop])
 
     # save the model
-    model.save('frozen dessert test model.h5')
+    model.save('power model.h5')
 
     # save the history
     his = pd.DataFrame(model.history.history)
@@ -73,7 +73,7 @@ if __name__ == '__main__':
 
     # load the model
     from tensorflow.keras.models import load_model
-    my_model = load_model('frozen dessert test model.h5')
+    my_model = load_model('power model.h5')
 
     # load the history
     models_history = pd.read_csv('history of the model.csv')
